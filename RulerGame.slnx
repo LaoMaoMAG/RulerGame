@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="src/RulerGame.Core/RulerGame.Core.csproj" />
   <Project Path="src/RulerGame.Game/RulerGame.Game.csproj" />
+  <Project Path="src/RulerGame.Share/RulerGame.Share.csproj" />
 </Solution>
