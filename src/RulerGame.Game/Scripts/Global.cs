@@ -1,4 +1,3 @@
-using System;
 using System.IO;
 using Godot;
 using RulerGame.Core;
@@ -29,7 +28,7 @@ public partial class Global : Node
     /// 当前版本
     /// </summary>
     // ReSharper disable once MemberCanBePrivate.Global
-    public static VersionCode CurrentVersion { get; } = new VersionCode(0,0,1,0, EnumVersionType.Dev);
+    public static VersionCode CurrentVersion { get; } = new (0,0,1,0, EnumVersionType.Dev);
     
     /// <summary>
     /// 启动事件
